@@ -1,5 +1,5 @@
 # asana-node-ajax-proxy
-A proxy to allow communication with Asana without revealing API key
+A proxy to allow AJAX communication with Asana without revealing API key. While Asana does allow COR AJAX, it requires storing the API key in client side code, which is accesiable by anyone. This is a security risk, this proxy allows the API key to be kept on the server.
 
 #### Installation
 ```
